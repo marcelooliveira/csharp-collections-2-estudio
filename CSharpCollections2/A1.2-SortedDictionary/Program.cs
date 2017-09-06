@@ -10,6 +10,8 @@ namespace A1._2_SortedDictionary
     {
         static void Main(string[] args)
         {
+            ///<image url="$(ProjectDir)\Slides\img1.png" scale=""/>
+
             IDictionary<string, Aluno> sorted
                 = new SortedList<string, Aluno>();
 
@@ -22,6 +24,7 @@ namespace A1._2_SortedDictionary
             {
                 Console.WriteLine(item);
             }
+
         }
     }
 }
