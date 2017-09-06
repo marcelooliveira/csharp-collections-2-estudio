@@ -11,8 +11,8 @@ namespace A1._3_SortedSet
         static void Main(string[] args)
         {
             //Conjunto de alunos:
-            ISet<string> alunos =
-                new SortedSet<string>()
+            ISet<string> alunos
+                = new SortedSet<string>(new ComparadorMinusculo())
                 {
                     "Vanessa Tonini",
                     "Ana Losnak",
@@ -49,6 +49,14 @@ namespace A1._3_SortedSet
 
             ///união de conjuntos - UnionWith
 
+        }
+    }
+
+    internal class ComparadorMinusculo : IComparer<string>
+    {
+        public int Compare(string x, string y)
+        {
+            return string.Compare(x, y, StringComparison.InvariantCultureIgnoreCase);
         }
     }
 }
