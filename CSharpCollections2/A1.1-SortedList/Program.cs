@@ -57,6 +57,8 @@ namespace A1._1_SortedList
             {
                 Console.WriteLine(item);
             }
+
+            ///<image url="$(ProjectDir)\Slides\img2.png" scale=""/>
         }
     }
 }
