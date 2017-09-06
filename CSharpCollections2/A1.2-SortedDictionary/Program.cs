@@ -13,7 +13,7 @@ namespace A1._2_SortedDictionary
             ///<image url="$(ProjectDir)\Slides\img1.png" scale=""/>
 
             IDictionary<string, Aluno> sorted
-                = new SortedList<string, Aluno>();
+                = new SortedDictionary<string, Aluno>();
 
             sorted.Add("VT", new Aluno("Vanessa", 34672));
             sorted.Add("AL", new Aluno("Ana", 5617));
