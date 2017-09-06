@@ -34,20 +34,30 @@ namespace A1._3_SortedSet
                 Console.WriteLine(aluno);
             }
 
-            ///este conjunto é subconjunto do outro? IsSubsetOf
+            ///<image url="$(ProjectDir)\Slides\img1.png" scale=""/>
 
+            ISet<string> outroConjunto = new HashSet<string>();
 
-            ///este conjunto é superconjunto do outro? IsSupersetOf
+            //este conjunto é subconjunto do outro? IsSubsetOf
+            alunos.IsSubsetOf(outroConjunto);
 
-            ///os conjuntos contêm os mesmos elementos? SetEquals
+            //este conjunto é superconjunto do outro? IsSupersetOf
+            alunos.IsSupersetOf(outroConjunto);
 
-            ///subtrai os elementos da outra coleção que também estão neste conjunto - ExceptWith
+            //os conjuntos contêm os mesmos elementos? SetEquals
+            alunos.SetEquals(outroConjunto);
 
-            ///intersecção dos conjuntos - IntersectWith
+            //subtrai os elementos da outra coleção que também estão neste conjunto - ExceptWith
+            alunos.ExceptWith(outroConjunto);
 
-            ///somente em um ou outro conjunto - SymmetricExceptWith
+            //intersecção dos conjuntos - IntersectWith
+            alunos.IntersectWith(outroConjunto);
 
-            ///união de conjuntos - UnionWith
+            //somente em um ou outro conjunto - SymmetricExceptWith
+            alunos.SymmetricExceptWith(outroConjunto);
+
+            //união de conjuntos - UnionWith
+            alunos.UnionWith(outroConjunto);
 
         }
     }
