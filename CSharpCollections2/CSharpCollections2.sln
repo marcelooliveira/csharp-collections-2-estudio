@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1.1-SortedList", "A1.1-Sor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1.2-SortedDictionary", "A1.2-SortedDictionary\A1.2-SortedDictionary.csproj", "{A0261DFA-1D08-4FC8-8EFE-22CEBB30E951}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1.3-SortedSet", "A1.3-SortedSet\A1.3-SortedSet.csproj", "{BCDA3665-D2B8-48EB-ACED-2A90162D7A70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{A0261DFA-1D08-4FC8-8EFE-22CEBB30E951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0261DFA-1D08-4FC8-8EFE-22CEBB30E951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0261DFA-1D08-4FC8-8EFE-22CEBB30E951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDA3665-D2B8-48EB-ACED-2A90162D7A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDA3665-D2B8-48EB-ACED-2A90162D7A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDA3665-D2B8-48EB-ACED-2A90162D7A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDA3665-D2B8-48EB-ACED-2A90162D7A70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3ED3D9F1-54F7-4CDA-8055-CB6134C26A3F} = {B0535F17-201B-4065-8E08-741F61BDBEDE}
 		{A0261DFA-1D08-4FC8-8EFE-22CEBB30E951} = {B0535F17-201B-4065-8E08-741F61BDBEDE}
+		{BCDA3665-D2B8-48EB-ACED-2A90162D7A70} = {B0535F17-201B-4065-8E08-741F61BDBEDE}
 	EndGlobalSection
 EndGlobal
