@@ -25,6 +25,10 @@ namespace A1._2_SortedDictionary
                 Console.WriteLine(item);
             }
 
+            ///<image url="$(ProjectDir)\Slides\img2.png" scale=""/>
+
+            ///<image url="$(ProjectDir)\Slides\img3.png" scale=""/>
+
         }
     }
 }
