@@ -7,7 +7,7 @@
     <ProjectGuid>{FDBF14B9-B66C-4E1B-AF7D-6AFD76A06E67}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>A4._1_OutrosOperadoresLINQ</RootNamespace>
-    <AssemblyName>A4._1_OutrosOperadoresLINQ</AssemblyName>
+    <AssemblyName>A4.1-OutrosOperadoresLINQ</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
