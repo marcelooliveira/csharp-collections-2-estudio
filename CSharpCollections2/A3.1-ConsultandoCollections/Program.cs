@@ -29,21 +29,31 @@ namespace A3._1_ConsultandoCollections
                new Mes("Dezembro  ",31)
             };
 
-            meses.Sort();
-            foreach (var mes in meses)
-            {
-                if (mes.Dias == 31)
-                {
-                    Console.WriteLine(mes.Nome.ToUpper());
-                }
-            }
+            //meses.Sort();
+            //foreach (var mes in meses)
+            //{
+            //    if (mes.Dias == 31)
+            //    {
+            //        Console.WriteLine(mes.Nome.ToUpper());
+            //    }
+            //}
 
-            //LINQ: LANGUAGE INTEGRATED QUERY
-            //ou CONSULTA INTEGRADA À LINGUAGEM
+            //LINQ = CONSULTA INTEGRADA À LINGUAGEM
+
+            IEnumerable<string> 
+                consulta = meses
+                            .Where(m => m.Dias == 31)
+                            .OrderBy(m => m.Nome)
+                            .Select(m => m.Nome.ToUpper());
+
+            foreach (var item in consulta)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 
-    class Mes : IComparable
+    class Mes //: IComparable
     {
         public Mes(string nome, int dias)
         {
@@ -54,12 +64,12 @@ namespace A3._1_ConsultandoCollections
         public string Nome { get; private set; }
         public int Dias { get; private set; }
 
-        public int CompareTo(object obj)
-        {
-            Mes outro = obj as Mes;
+        //public int CompareTo(object obj)
+        //{
+        //    Mes outro = obj as Mes;
 
-            return this.Nome.CompareTo(outro.Nome);
-        }
+        //    return this.Nome.CompareTo(outro.Nome);
+        //}
 
         public override string ToString()
         {
