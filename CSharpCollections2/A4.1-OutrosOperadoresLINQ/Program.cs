@@ -26,15 +26,45 @@ namespace A4._1_OutrosOperadoresLINQ
                new Mes("Dezembro  ",31)
             };
 
-            ///Pegar o primeiro trimestre
+            //Pegar o primeiro trimestre
+            var consulta = meses.Take(3);
+            foreach (var item in consulta)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
 
-            ///Pegar os meses depois do primeiro trimestre
+            //Pegar os meses depois do primeiro trimestre
+            var consulta2 = meses.Skip(3);
+            foreach (var item in consulta2)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
 
-            ///Pegar os meses do terceiro trimestre
+            //Pegar os meses do terceiro trimestre
+            var consulta3 = meses.Skip(6).Take(3);
+            foreach (var item in consulta3)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
 
-            ///Pegar os meses até que o mês comece com a letra 'S'
+            //Pegar os meses até que o mês comece com a letra 'S'
+            var consulta4 = meses.TakeWhile(m => !m.Nome.StartsWith("S"));
+            foreach (var item in consulta4)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
 
-            ///Pular os meses até que o mês comece com a letra 'S'
+            //Pular os meses até que o mês comece com a letra 'S'
+            var consulta5 = meses.SkipWhile(m => !m.Nome.StartsWith("S"));
+            foreach (var item in consulta5)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
         }
     }
 
