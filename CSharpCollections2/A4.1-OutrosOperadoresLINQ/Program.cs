@@ -26,15 +26,15 @@ namespace A4._1_OutrosOperadoresLINQ
                new Mes("Dezembro  ",31)
             };
 
-            //Pegar o primeiro trimestre
+            ///Pegar o primeiro trimestre
 
-            //Pegar os meses depois do primeiro trimestre
+            ///Pegar os meses depois do primeiro trimestre
 
-            //Pegar os meses do terceiro trimestre
+            ///Pegar os meses do terceiro trimestre
 
-            //Pegar os meses até que o mês comece com a letra 'S'
+            ///Pegar os meses até que o mês comece com a letra 'S'
 
-            //Pular os meses até que o mês comece com a letra 'S'
+            ///Pular os meses até que o mês comece com a letra 'S'
         }
     }
 
