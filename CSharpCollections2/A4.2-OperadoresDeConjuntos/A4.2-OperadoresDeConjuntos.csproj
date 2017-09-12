@@ -7,7 +7,7 @@
     <ProjectGuid>{16841A17-020B-44F8-9678-221F43AB51A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>A4._2_OperadoresDeConjuntos</RootNamespace>
-    <AssemblyName>A4._2_OperadoresDeConjuntos</AssemblyName>
+    <AssemblyName>A4.2-OperadoresDeConjuntos</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,5 +48,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

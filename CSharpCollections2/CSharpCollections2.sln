@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula4", "Aula4", "{94DD25E4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A4.1-OutrosOperadoresLINQ", "A4.1-OutrosOperadoresLINQ\A4.1-OutrosOperadoresLINQ.csproj", "{FDBF14B9-B66C-4E1B-AF7D-6AFD76A06E67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A4.2-OperadoresDeConjuntos", "A4.2-OperadoresDeConjuntos\A4.2-OperadoresDeConjuntos.csproj", "{16841A17-020B-44F8-9678-221F43AB51A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{FDBF14B9-B66C-4E1B-AF7D-6AFD76A06E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDBF14B9-B66C-4E1B-AF7D-6AFD76A06E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDBF14B9-B66C-4E1B-AF7D-6AFD76A06E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16841A17-020B-44F8-9678-221F43AB51A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16841A17-020B-44F8-9678-221F43AB51A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16841A17-020B-44F8-9678-221F43AB51A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16841A17-020B-44F8-9678-221F43AB51A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +77,6 @@ Global
 		{A9ECC666-E8E3-408D-88B6-7135E07FD68C} = {E1AB90BA-05C5-43E5-8FE4-0E64E1939013}
 		{A55E08C2-F246-49C1-8D4F-797C652E0FDE} = {B3545BCB-3CCB-4974-A071-FC44BEC8262C}
 		{FDBF14B9-B66C-4E1B-AF7D-6AFD76A06E67} = {94DD25E4-8633-4621-86AE-2593EDFECD41}
+		{16841A17-020B-44F8-9678-221F43AB51A8} = {94DD25E4-8633-4621-86AE-2593EDFECD41}
 	EndGlobalSection
 EndGlobal
