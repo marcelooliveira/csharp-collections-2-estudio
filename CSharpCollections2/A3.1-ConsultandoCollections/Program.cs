@@ -37,6 +37,9 @@ namespace A3._1_ConsultandoCollections
                     Console.WriteLine(mes.Nome.ToUpper());
                 }
             }
+
+            //LINQ: LANGUAGE INTEGRATED QUERY
+            //ou CONSULTA INTEGRADA À LINGUAGEM
         }
     }
 
