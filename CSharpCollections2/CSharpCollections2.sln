@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula1", "Aula1", "{B0535F17-201B-4065-8E08-741F61BDBEDE}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula5", "Aula5", "{1906DCA2-66E4-48FD-B7AD-C940FC0CBBB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A5.1-Covariancia", "A5.1-Covariancia\A5.1-Covariancia.csproj", "{952D067A-C201-4FC9-A7C5-CF8BE6D87FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A5.2-Foreach", "A5.2-ModificandoAoEnumerar\A5.2-Foreach.csproj", "{E2018050-7EDA-4656-80E1-BEDD2EC8EA33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{952D067A-C201-4FC9-A7C5-CF8BE6D87FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952D067A-C201-4FC9-A7C5-CF8BE6D87FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952D067A-C201-4FC9-A7C5-CF8BE6D87FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2018050-7EDA-4656-80E1-BEDD2EC8EA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2018050-7EDA-4656-80E1-BEDD2EC8EA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2018050-7EDA-4656-80E1-BEDD2EC8EA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2018050-7EDA-4656-80E1-BEDD2EC8EA33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{FDBF14B9-B66C-4E1B-AF7D-6AFD76A06E67} = {94DD25E4-8633-4621-86AE-2593EDFECD41}
 		{16841A17-020B-44F8-9678-221F43AB51A8} = {94DD25E4-8633-4621-86AE-2593EDFECD41}
 		{952D067A-C201-4FC9-A7C5-CF8BE6D87FE0} = {1906DCA2-66E4-48FD-B7AD-C940FC0CBBB4}
+		{E2018050-7EDA-4656-80E1-BEDD2EC8EA33} = {1906DCA2-66E4-48FD-B7AD-C940FC0CBBB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3412C4C7-87E1-4020-AD51-4C07B98A6F42}
