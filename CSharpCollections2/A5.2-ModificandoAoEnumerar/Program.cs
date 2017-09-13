@@ -23,6 +23,12 @@ namespace A5._2_Foreach
                 meses[0] = meses[0].ToUpper();
                 Console.WriteLine(mes);
             }
+
+            //for (int i = 0; i < meses.Length; i++)
+            //{
+            //    var mes = meses[i];
+            //    ....
+            //}
         }
     }
 }
