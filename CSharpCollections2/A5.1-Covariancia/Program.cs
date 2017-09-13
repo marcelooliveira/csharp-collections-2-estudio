@@ -10,61 +10,55 @@ namespace A5._1_Covariancia
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Fazendo cast de string para objeto");
+            Console.WriteLine("string para object");
             string titulo = "meses";
             object obj = titulo;
             Console.WriteLine(obj);
-            Console.WriteLine();
             ///<image url="$(ProjectDir)\Slides\img1.png" scale=""/>
 
-            Console.WriteLine("Então podemos fazer cast de List<string> para List<object>?");
-            List<string> meses = new List<string>
+            Console.WriteLine("List<string> para List<object>");
+
+            IList<string> listaMeses = new List<string>
             {
                 "Janeiro", "Fevereiro", "Março",
                 "Abril", "Maio", "Junho",
                 "Julho", "Agosto", "Setembro",
                 "Outubro", "Novembro", "Dezembro"
             };
-            //List<object> listaObj = meses; // essa linha não compila!
+            //IList<object> listaObj = listaMeses;
             Console.WriteLine();
 
-            Console.WriteLine("Agora trabalhando com arrays");
-            var mesesArray = new string[]
+            Console.WriteLine("string[] para object[]?");
+            string[] arrayMeses = new string[]
             {
                 "Janeiro", "Fevereiro", "Março",
                 "Abril", "Maio", "Junho",
                 "Julho", "Agosto", "Setembro",
                 "Outubro", "Novembro", "Dezembro"
             };
-            object meuObjeto = mesesArray;
-            Console.WriteLine(meuObjeto);
-            Console.WriteLine();
-            ///<image url="$(ProjectDir)\Slides\img2.png" scale=""/>
-
-
-            Console.WriteLine("Podemos fazer cast de string[] para object[]?");
-            ///<image url="$(ProjectDir)\Slides\img3.png" scale=""/>
-
-            object[] objArray = mesesArray;
-            Console.WriteLine(objArray);
-            foreach (var item in objArray)
+            object[] arrayObj = arrayMeses; //COVARIÂNCIA!
+            Console.WriteLine(arrayObj);
+            foreach (var item in arrayObj)
             {
                 Console.WriteLine(item);
             }
-            //MAS ATENÇÃO! objArray que recebeu cast de string[]
-            //  não pode receber um int!
-            //objArray[0] = 123;
-            //Console.WriteLine(objArray[0]);
+            ///<image url="$(ProjectDir)\Slides\img3.png" scale=""/>
+            arrayObj[0] = "PRIMEIRO MÊS";
+            Console.WriteLine(arrayObj[0]);
             Console.WriteLine();
 
-            // mas cast de List<string> para IEnumerable<object> funciona...
-            IEnumerable<object> enumObj = meses;
-            Console.WriteLine(enumObj);
-            Console.WriteLine();
+            //arrayObj[0] = 12345;
+            //Console.WriteLine(arrayObj[0]);
+            //Console.WriteLine();
+
+            Console.WriteLine("List<string> para IEnumerable<object>");
+
+            IEnumerable<object> enumObj = listaMeses; //COVARIÂNCIA
             foreach (var item in enumObj)
             {
                 Console.WriteLine(item);
             }
+            //enumObj[0] = 12345;
         }
     }
 }
