@@ -47,6 +47,10 @@ namespace A5._1_Covariancia
 
             object[] objArray = mesesArray;
             Console.WriteLine(objArray);
+            foreach (var item in objArray)
+            {
+                Console.WriteLine(item);
+            }
             //MAS ATENÇÃO! objArray que recebeu cast de string[]
             //  não pode receber um int!
             //objArray[0] = 123;
